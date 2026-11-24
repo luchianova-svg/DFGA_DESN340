@@ -1,0 +1,350 @@
+/* NAV */
+
+.nav {
+	background-color: #351E10; /* DEEP BROWN */
+	padding: 16px 0px;
+}
+
+.nav-menu {
+	list-style-type: none;
+	padding: 0;
+	font-family: "Noto Serif Gujarati", sans-serif;
+	font-size: 24px;
+	line-height: 100%;
+	width: 100%;
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #351E10; /* DEEP BROWN */
+	color: #ffffff;
+	padding: 64px 0px;
+	border-top: #351E10 2px solid;
+}
+
+.footer-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	align-items: bottom;
+}
+
+
+.font-bold {
+	font-weight: 700;
+}
+
+.page-wrapper {
+	overflow: hidden;
+}
+
+.hamburger {
+	display: none;
+	width: 32px;
+}
+
+
+/* -------- TYPE STYLES -------- */
+
+body {
+	font-family: "Noto Serif Gujarati", sans-serif;
+	color: #000000;
+	background-color: #FBF8F4;
+}
+
+h1 {
+	font-family: "Bona Nova SC", serif;
+	color: #ffffff; /* WHITE */
+	font-size: 64px;
+	line-height: 64px;
+	letter-spacing: 0px;
+}
+
+.h1 {
+	font-family: "Bona Nova SC", serif;
+	color: #873A47; /* WHITE */
+	font-size: 64px;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+h2 {
+	font-family: "Bona Nova SC", serif;
+	font-size: 48px;
+	line-height: 120%;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #873A47;
+	margin-bottom: 0.5em;
+	margin-top: 0.75em;
+}
+
+.h2 {
+	font-family: "Bona Nova SC", serif;
+	font-size: 48px;
+	line-height: 120%;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #873A47;
+	margin-bottom: 0.5em;
+	margin-top: 0.75em;
+}
+
+h3 {
+	font-family: "Noto Serif Gujarati", sans-serif;
+	font-size: 24px;
+	line-height: 120%;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #000000;
+	margin-bottom: 0.25em;
+	margin-top: 0.5em;
+}
+
+.h3 {
+	font-family: "Noto Serif Gujarati", sans-serif;
+	font-size: 24px;
+	line-height: 120%;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #000000;
+	margin-bottom: 0.25em;
+	margin-top: 0.5em;
+}
+
+p {
+	font-size: 20px;
+	line-height: 140%;
+	font-weight: 400;
+	margin-bottom: 0.75em;
+	margin-top: 0em;
+}
+
+.paragraph-lg { /* leftover code*/
+	font-size: 40px;
+	line-height: 120%;
+	font-weight: 700;
+	letter-spacing: -1px;
+	color: #873A47;
+}
+
+/* BUTTON & LINK STYLES */
+
+.button {
+	padding: 10px 18px 10px 18px;
+	font-family: "Noto Serif Gujarati", sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 32px;
+	letter-spacing: 2px;
+	display: inline-block;
+	border: none;
+}
+
+.button-orange {
+	background-color: #FF7519; /* ORANGE--- */
+}
+
+.button-orange:hover {
+	background-color: #FF6600; /* LIGHT ORANGE */
+	transition: ease 200ms;
+}
+
+.text-area {
+	width: 100%;
+	height: 200px;
+}
+
+.text-area-wrap {
+	grid-row: 3 / span 1;
+	grid-column: 1 / span 2;
+}
+
+
+/* ---- GLOBAL STYLES ---- */
+
+/* UTILITIES */
+
+.u-p-relative {
+	position: relative;
+}
+
+.u-text-center {
+	text-align: center;
+}
+
+.u-text-white {
+	color: #ffffff;
+}
+
+.u-list-none {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.u-list-none li {
+	margin-bottom: 0.5em;
+}
+
+.u-img-cover {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.u-pt-lg {
+	padding-top: 80px;
+}
+
+.u-pt-md {
+	padding-top: 64px;
+}
+
+.u-pt-sm {
+	padding-top: 16px;
+}
+
+.u-pb-lg {
+	padding-bottom: 80px;
+}
+
+.u-pt-md {
+	padding-top: 64px;
+}
+
+.u-pb-sm {
+	padding-bottom: 16px;
+}
+
+.u-overflow-hidden {
+	overflow: hidden;
+}
+
+.u-d-block {
+	display: block;
+} /* u-d-block GETS RID OF GAP BETWEEN SECTIONS */
+
+
+/* BACKGROUNDS */
+
+.background-beige {
+	background-color: #D2B48C;
+	color: #000000;
+}
+
+.background-deep-brown {
+	background-color: #351E10;
+	color: #ffffff;
+}
+
+.background-event-bg {
+	background-color: #FBF8F4;
+	color: #000000;
+}
+
+.background-off-white {
+	background-color: #FBF8F4;
+}
+
+.background-light-blue {
+	background-color: #9CE6E9;
+	color: #000000;
+}
+
+.background-red-brown {
+	background-color: #954535;
+	color: #ffffff;
+}
+
+.background-wood-brown {
+	background-color: #4B3A26;
+	color: #ffffff;
+}
+
+/* ---- SINGLE STYLES ---- */
+
+
+
+/* ------------------- */
+/* ----- MOBILE ------ */
+/* ------------------- */
+
+@media screen and (max-width: 478px) {
+
+
+	h1 {
+		font-size: 56px;
+	}
+
+	.h1 {
+		font-size: 56px;
+	}
+
+
+	h2 {
+		font-size: 44px;
+	}
+
+	.h2 {
+		font-size: 44px;
+	}
+
+
+	h3 {
+		font-size: 28px;
+	}
+
+	.h3 {
+		font-size: 28px;
+	}
+
+
+	.u-sm-none {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+		margin-left: auto;
+	}
+
+	.logo {
+		width: 100%;
+		max-width: 180px;
+		min-width: 120px;	
+	}
+
+	.u-pt-lg {
+	padding-top: 64px;
+}
+
+	.u-pb-lg {
+	padding-top: 64px;
+}
+
+	.footer-copyright-mobile {
+	display: block;
+}
+
+	.footer-copyright {
+	display: none;
+}
+
+}
